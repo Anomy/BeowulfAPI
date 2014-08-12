@@ -63,28 +63,37 @@ typedef enum {
 @implementation Beowulf
 
 /**
-* Changes Dog State from kPositionStanding to kPositionSitting.
-*
 * Required Current State: kPositionStanding
 * New State: kPositionSitting
-*
-* Required: Dog will only respond to @"Sit" from kPositionStanding state.
 */
 - (void) sit;
 
 /**
-* Changes Dog State from kPositionSitting to kPostitionLayingDown.
-*
 * Required Current State: kPositionSitting
 * New State: kPostitionLayingDown
 *
-* Required: Dog will only respond to @"Sit" from kPositionStanding state.
-* 
-* Possible Errors: will only sit partway and will wind up in kPostitionNaughtyLayingDown
+* Possible Errors: 
+* 		will only lay down partway and will wind up in kPostitionNaughtyLayingDown
+*		saying @"lay down" instead of only down.  probably works, but a consistant command is easier for dog.
 * Correct this Error: snap (or whatever we figure out) and point and the ground in front of her nose
 * 					do your best not to repeat the command or say the her name.
 */
 - (void) down;
+
+/**
+* Required Current State: kPostitionLayingDown
+* New State: kPositionSitting
+*
+* Required: Dog will only respond to @"Up" from kPostitionLayingDown state.
+
+* Possible Errors: dog may refuse to sit up
+* Correct this Error: snap (or whatever we figure out) and point and the ground in front of her nose
+* 					do your best not to repeat the command or say the her name.
+
+* Warning: Dog HATES this command and will bark almost every time
+*/
+- (void) up;
+
 
 /**
 * Changes Dog State from (kPostitionJumpingOnHuman || kPostitionJumpingOnFurniture || kPostitionJumpingOnObject) to kPositionStanding.
@@ -97,7 +106,38 @@ typedef enum {
 - (void) off;
 
 /**
+* use when dog is interacting with something she should not
+* good for use when dog is in the midst of what might be a tussle
 */
+- (void) leaveIt;
+
+/**
+* use when dog has something in her mouth she should not
+* good for use when dog tries to steal a ball from the park
+*/
+- (void) dropIt;
+
+/**
+* after dog sits and (in theory) waits patiently to move through a door
+* this command lets dog move through door
+*/
+- (void) outside;
+
+/**
+* generically lets dog know that she can get up and move.
+*/
+- (void) okay;
+
+/**
+* works only from sit position, either paw may be offered to shake.
+*/
+- (void) shake;
+
+/**
+* this one is a sham.  but it's cute to say it and see her run to the door from the elevator
+*/
+- (void) goHome;
+
 
 ```
 
