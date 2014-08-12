@@ -5,7 +5,7 @@ Training Documentation for Beowulf API 2.0
 
 ## Introduction
 
-Beowulf is a dog.  She is fluffy and cute.
+Beowulf is a Dog.  She is fluffy and cute.
 
 ## Table of Contents
 * [Eating Schedule](#eating-schedule)
@@ -28,12 +28,12 @@ Beowulf can have as much water as she can drink until 9 or 10 pm or so.
 
 ## Walk Schedule
 
-Walking Bey is great for bonding time when dog skills are doing well.
-She gets a lot more exercise and interaction at the dog park though,
+Walking Bey is great for bonding time when Dog skills are doing well.
+She gets a lot more exercise and interaction at the Dog park though,
 so taking her there and then playing with her and petting her at home, seems ideal for now.
 
-If she doesn't go poo at the dog park, she will need to be taken on a walk.  Sometimes she 
-gets so excited about the other dogs, she just won't go and needs to be away from the distractions.
+If she doesn't go poo at the Dog park, she will need to be taken on a walk.  Sometimes she 
+gets so excited about the other Dogs, she just won't go and needs to be away from the distractions.
 
 Walking Bey in the morning during the park's off leash time is really hard on her.  
 She really wants to also be off leash so taking her to the park is preferable especially
@@ -63,7 +63,7 @@ typedef enum {
 
 typedef enum {
     kVocalizationQuiet = 0, //making no vocalization
-    kVocalizationBarking, //making normal dog "woof" sound
+    kVocalizationBarking, //making normal Dog "woof" sound
     kVocalizationClucking, //making short bursts of noise 
     kVocalizationGrowling, //mean sounding vocalization, teeth showing
     kVocalizationMumbling, //like growling but doesn't sound aggressive, teeth not showing
@@ -91,7 +91,7 @@ typedef enum {
 *
 * Possible Errors: 
 * 		will only lay down partway and will wind up in kPostitionNaughtyLayingDown
-*		saying @"lay down" instead of only down.  probably works, but a consistant command is easier for dog.
+*		saying @"lay down" instead of only down.  probably works, but a consistant command is easier for Dog.
 * Correct this Error: snap (or whatever we figure out) and point and the ground in front of her nose
 * 					do your best not to repeat the command or say the her name.
 */
@@ -103,7 +103,7 @@ typedef enum {
 *
 * Required: Dog will only respond to @"Up" from kPostitionLayingDown state.
 
-* Possible Errors: dog may refuse to sit up
+* Possible Errors: Dog may refuse to sit up
 * Correct this Error: snap (or whatever we figure out) and point and the ground in front of her nose
 * 					do your best not to repeat the command or say the her name.
 
@@ -118,19 +118,19 @@ typedef enum {
 * Required Current State: kPostitionJumpingOnHuman || kPostitionJumpingOnFurniture || kPostitionJumpingOnObject
 * New State: kPositionStanding
 * 
-* Possible Errors: Using "down" instead of "off", this will probably work, but confuses dog to use one word for multiple commands
+* Possible Errors: Using "down" instead of "off", this will probably work, but confuses Dog to use one word for multiple commands
 */
 - (void) off;
 
 /**
-* use when dog is interacting with something she should not
-* good for use when dog is in the midst of what might be a tussle
+* use when Dog is interacting with something she should not
+* good for use when Dog is in the midst of what might be a tussle
 */
 - (void) leaveIt;
 
 /**
-* use when dog has something in her mouth she should not
-* good for use when dog tries to steal a ball from the park
+* use when Dog has something in her mouth she should not
+* good for use when Dog tries to steal a ball from the park
 */
 - (void) dropIt;
 
@@ -140,13 +140,13 @@ typedef enum {
 - (void) come;
 
 /**
-* after dog sits and (in theory) waits patiently to move through a door
-* this command lets dog move through door
+* after Dog sits and (in theory) waits patiently to move through a door
+* this command lets Dog move through door
 */
 - (void) outside;
 
 /**
-* generically lets dog know that she can move.
+* generically lets Dog know that she can move.
 */
 - (void) okay;
 
@@ -179,12 +179,12 @@ typedef enum {
 ```objc
 
 typedef enum {
-	kRewardDogBiscuits = -3, //Beowulf hates normal dog biscuits
+	kRewardDogBiscuits = -3, //Beowulf hates normal Dog biscuits
     kRewardKibble = 0, //a piece of whatever the current food is, generally apathetic
     kRewardPetting = 1, //Beowulf would love this, though may not understand that it's a treat
     kRewardAnyHumanFood = 3, //If you hand it to her, she'll show interest at least
     kRewardCheese = 4, //It's exciting, but meat is yummier
-    kRewardPupperoni = 5, //Favorite kind of treat dog treat
+    kRewardPupperoni = 5, //Favorite kind of treat Dog treat
     kRewardThrowBall = 6, //Beowulf would love this, though may not understand that it's a treat
     kRewardDogIceCream = 7, //This is a real thing.
     kRewardHumanMeat = 10, //Best. Thing. Ever.
