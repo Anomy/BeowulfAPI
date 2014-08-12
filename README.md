@@ -125,6 +125,8 @@ typedef enum {
 /**
 * use when Dog is interacting with something she should not
 * good for use when Dog is in the midst of what might be a tussle
+* or some kind of extremely distracted behavior, like skateboards.
+* use sparingly.  It's kind of an emergency command.
 */
 - (void) leaveIt;
 
