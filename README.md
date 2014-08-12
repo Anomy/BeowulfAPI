@@ -21,12 +21,27 @@ Beowulf is a dog.  She is fluffy and cute.
 
 ## Eating Schedule
 
-Beowulf currently eats once a day
-
+Beowulf currently eats once a day, she gets two scoops of the Wellness food in the purple bag.
+Beowulf can have as much water as she can drink until 9 or 10 pm or so.  
+		Keep an eye on how much you're giving her, a lot of water will mean 
+		she has to go out more often.
 
 ## Walk Schedule
 
+Walking Bey is great for bonding time when dog skills are doing well.
+She gets a lot more exercise and interaction at the dog park though,
+so taking her there and then playing with her and petting her at home, seems ideal for now.
 
+If she doesn't go poo at the dog park, she will need to be taken on a walk.  Sometimes she 
+gets so excited about the other dogs, she just won't go and needs to be away from the distractions.
+
+Walking Bey in the morning during the park's off leash time is really hard on her.  
+She really wants to also be off leash so taking her to the park is preferable especially
+during that time.
+
+Required: Once in the morning when she wakes up. must do both
+Required: Once in the evening around 8 or 9. must do both
+Optional: Two additional walks
 
 ## Commands
 
@@ -154,6 +169,7 @@ typedef enum {
 - (void) quiet;
 - (void) speak;
 - (void) bang;
+- (void) heel;
 
 ```
 
