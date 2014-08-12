@@ -146,7 +146,7 @@ typedef enum {
 - (void) outside;
 
 /**
-* generically lets dog know that she can get up and move.
+* generically lets dog know that she can move.
 */
 - (void) okay;
 
