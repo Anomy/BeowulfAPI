@@ -26,7 +26,14 @@ Beowulf is a dog.  She is fluffy and cute.
 
 ## Commands
 
-
+```objc
+/**
+* Changes Dog State from standing to sitting.
+* Current State: Dog is standing with four paws extended
+* Desired State: Dog sitting with but on ground but two legs extended.
+*/
+- (void) sit;
+```
 
 ## Rewards
 
