@@ -118,6 +118,11 @@ typedef enum {
 - (void) dropIt;
 
 /**
+* she is really hit and miss on this one.
+*/
+- (void) come;
+
+/**
 * after dog sits and (in theory) waits patiently to move through a door
 * this command lets dog move through door
 */
@@ -138,6 +143,17 @@ typedef enum {
 */
 - (void) goHome;
 
+#pragma mark - Lesser Used Commands
+/**
+* we worked really hard on this but, she's not great at it.
+*/
+- (void) stay;
+
+#pragma mark - Failed Commands
+- (void) rollOver;
+- (void) quiet;
+- (void) speak;
+- (void) bang;
 
 ```
 
