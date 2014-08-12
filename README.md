@@ -40,7 +40,9 @@ She really wants to also be off leash so taking her to the park is preferable es
 during that time.
 
 Required: Once in the morning when she wakes up. must do both
+
 Required: Once in the evening around 8 or 9. must do both
+
 Optional: Two additional walks
 
 ## Commands
