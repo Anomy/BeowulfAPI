@@ -22,7 +22,7 @@ Beowulf is a dog.  She is fluffy and cute.
 ## Eating Schedule
 
 ### Food
-Beowulf currently eats twice a day, in the morning after her AM walk, she gets one scoop of the Wellness food in the purple bag, or from the green storage container.
+Beowulf currently eats twice a day, in the morning after her AM walk, she gets one scoop of the [Wellness Dry: Complete Health Chicken](https://www.freshdirect.com/pdp.jsp?productId=gro_pid_4007877&catId=dog_food_dry_nat) in the purple bag, or from the green storage container.
 
 ### Water
 Beowulf can have as much water as she can drink. 
