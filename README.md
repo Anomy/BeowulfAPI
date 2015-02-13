@@ -6,7 +6,7 @@ Training Documentation for Beowulf API 2.0
 ## Introduction
 
 Beowulf is a dog.  She is fluffy and cute.
-[Imgur](http://i.imgur.com/P3td4Ao.jpg "Beowulf the Bantha")
+![Imgur](http://i.imgur.com/P3td4Ao.jpg "Logo Title Text 1")
 
 ## Table of Contents
 * [Eating Schedule](#eating-schedule)
