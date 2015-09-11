@@ -25,6 +25,9 @@ Beowulf is a dog.  She is fluffy and cute.
 ### Food
 Beowulf currently eats twice a day, in the morning after her AM walk, she gets one scoop of the [Wellness Dry: Complete Health Chicken](https://www.freshdirect.com/pdp.jsp?productId=gro_pid_4007877&catId=dog_food_dry_nat) in the purple bag, or from the green storage container.
 
+### Poison to dogs
+There are many foods which are poisonous to dogs that are easy to foget about, apple seeds, grapes, onion and garlic are just a few.  For a better list plase see this [PetMD List:](http://www.humanesociety.org/animals/resources/tips/foods_poisonous_to_pets.html?referrer=https://www.google.com/)
+
 ### Water
 Beowulf can have as much water as she can drink. 
 Keep an eye on how much you're giving her, a lot of water will mean 
@@ -232,5 +235,8 @@ typedef enum {
 
 
 ## Dislikes
+
+
+## Debugging tips
 
 
